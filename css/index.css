@@ -1,0 +1,40 @@
+body {
+    max-width: 300px;
+    margin: 0 auto;
+
+}
+
+h1, h2, p {
+    margin: 0;
+    border: 0;
+}
+h1 {
+    color: red;
+}
+p {
+    background-color: greenyellow;
+}
+#chousen {
+    text-decoration: underline;
+}
+.border {
+   border: 1px solid brown; 
+   position: fixed;
+   top: 0;
+   right: -40px;   
+}
+div > p {
+    font-weight: bold;
+}
+
+div + p {
+    transform: rotate(180deg)
+}
+h1:hover, p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+p::first-letter {
+    font-size: 2rem;
+}
